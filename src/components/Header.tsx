@@ -1,3 +1,5 @@
+"use client"
+
 import Image from 'next/image';
 
 export default function Header() {
@@ -8,7 +10,7 @@ export default function Header() {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               <Image
-                src="/logo-compracorta.png"
+                src="/images/logo-compracorta.png"
                 alt="CompraCorta Logo"
                 width={120}
                 height={40}
