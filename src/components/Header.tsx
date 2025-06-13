@@ -10,7 +10,7 @@ export default function Header() {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               <Image
-                src="/images/logo-compracorta.png"
+                src="/images/logo-web.png"
                 alt="CompraCorta Logo"
                 width={120}
                 height={40}
