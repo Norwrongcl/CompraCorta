@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-sm">
+    <header className="bg-green-100 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex">
@@ -12,9 +12,9 @@ export default function Header() {
               <Image
                 src="/images/logo-web.png"
                 alt="CompraCorta Logo"
-                width={120}
-                height={40}
-                className="h-10"
+                width={1536}
+                height={1024}
+                className="h-10 w-auto"
               />
             </div>
           </div>
